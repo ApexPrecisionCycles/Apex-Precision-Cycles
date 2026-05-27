@@ -80,7 +80,10 @@ export default function ApexServicesPage() {
     <div className="min-h-screen bg-neutral-950 text-white">
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(239,68,68,0.24),transparent_35%),linear-gradient(to_bottom,rgba(10,10,10,0.15),rgba(10,10,10,1))]" />
-        <div className="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=2400&auto=format&fit=crop')] bg-cover bg-center" />
+<div
+  className="absolute inset-0 bg-cover bg-center opacity-30"
+  style={{ backgroundImage: "url('/images/hero-bike.png')" }}
+/>
 
         <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
           <motion.div
