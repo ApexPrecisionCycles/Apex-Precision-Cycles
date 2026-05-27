@@ -37,7 +37,7 @@ export default function RootLayout({
                 Inventory
               </a>
               <a
-                href="mailto:admin@apexprecisioncycles.com"
+                href="/contact"
                 className="transition hover:text-red-500"
               >
                 Contact
@@ -45,7 +45,7 @@ export default function RootLayout({
             </div>
 
             <a
-              href="mailto:admin@apexprecisioncycles.com"
+              href="/contact"
               className="hidden rounded-2xl bg-red-600 px-4 py-2 text-sm font-bold text-white shadow-lg shadow-red-950/30 transition hover:bg-red-500 sm:inline-flex"
             >
               Schedule Service
