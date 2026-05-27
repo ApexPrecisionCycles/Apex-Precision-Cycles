@@ -10,20 +10,20 @@ export default function SellYourBikePage() {
 
   const processSteps = [
     {
-      title: "Send the Details",
-      text: "Complete the bike submission form with photos, year, make, model, size, drivetrain, wheelset, condition, asking price, and any known issues.",
+      title: "Submit the Bike",
+      text: "Complete the bike submission portal with photos, year, make, model, size, drivetrain, wheelset, condition, asking price, and any known issues.",
     },
     {
-      title: "Apex Reviews the Bike",
-      text: "We evaluate fit for our inventory, resale potential, service needs, parts condition, and current market value.",
+      title: "Apex Reviews It",
+      text: "We evaluate whether the bike fits our inventory, resale standards, service process, and current market demand.",
     },
     {
       title: "Receive an Offer",
-      text: "If the bike is a good fit, Apex provides a straightforward purchase offer or a consignment-style discussion.",
+      text: "If the bike is a good fit, Apex will follow up with a purchase offer or a consignment-style discussion.",
     },
     {
-      title: "Drop-Off / Inspection",
-      text: "The bike is inspected in person before final purchase. Mechanical issues, frame damage, or missing details may affect the final offer.",
+      title: "Inspection + Finalization",
+      text: "The bike is inspected in person before final purchase. Frame condition, mechanical issues, or missing details may affect the final offer.",
     },
   ];
 
@@ -140,35 +140,54 @@ export default function SellYourBikePage() {
         </div>
       </section>
 
-      <section id="bike-submission" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mb-10 max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">
-            Bike Submission Portal
-          </p>
+      <section
+        id="bike-submission"
+        className="scroll-mt-32 bg-neutral-950 px-6 py-20"
+      >
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-10 max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">
+              Bike Submission Portal
+            </p>
 
-          <h2 className="mt-4 text-4xl font-black tracking-tight md:text-5xl">
-            Submit your bike for Apex review.
-          </h2>
+            <h2 className="mt-4 text-4xl font-black tracking-tight md:text-5xl">
+              Submit your bike for Apex review.
+            </h2>
 
-          <p className="mt-6 text-lg leading-8 text-neutral-300">
-            Complete the form below and upload clear photos of your bike. Apex
-            will review the submission and follow up if the bike fits our current
-            inventory standards.
-          </p>
-        </div>
+            <p className="mt-6 text-lg leading-8 text-neutral-300">
+              Complete the form below and upload clear photos of your bike. Apex
+              will review the submission and follow up if the bike fits our
+              current inventory standards.
+            </p>
+          </div>
 
-        <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white p-2 shadow-2xl shadow-black/30">
-          <iframe
-            src="https://tally.so/embed/eqYddE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-            width="100%"
-            height="1400"
-            frameBorder="0"
-            marginHeight={0}
-            marginWidth={0}
-            title="Sell Your Bike to Apex Form"
-          >
-            Loading…
-          </iframe>
+          <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-neutral-900 to-black p-4 shadow-2xl shadow-black/40 md:p-6">
+            <div className="mb-6 rounded-3xl border border-red-500/20 bg-red-950/20 p-5">
+              <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">
+                Before You Submit
+              </p>
+
+              <p className="mt-3 leading-7 text-neutral-300">
+                Clear photos help Apex evaluate your bike faster. Please include
+                full-bike photos from both sides, drivetrain details, cockpit,
+                wheels, and any blemishes or damage.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-black p-2">
+              <iframe
+                src="https://tally.so/embed/eqYddE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                width="100%"
+                height="1500"
+                frameBorder="0"
+                marginHeight={0}
+                marginWidth={0}
+                title="Sell Your Bike to Apex Form"
+              >
+                Loading…
+              </iframe>
+            </div>
+          </div>
         </div>
       </section>
 
