@@ -26,7 +26,7 @@ export default function HomePage() {
               first pedal stroke.
             </p>
 
-            <div className="mt-9 flex flex-col gap-4 sm:flex-row">
+            <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <a
                 href="/inventory"
                 className="rounded-2xl bg-red-600 px-6 py-3 text-center font-semibold shadow-lg shadow-red-900/30 transition hover:bg-red-500"
@@ -39,6 +39,13 @@ export default function HomePage() {
                 className="rounded-2xl border border-white/20 px-6 py-3 text-center font-semibold text-white/90 transition hover:bg-white/10"
               >
                 Sharpen the Blade
+              </a>
+
+              <a
+                href="/sell-your-bike"
+                className="rounded-2xl border border-red-500/50 bg-red-950/20 px-6 py-3 text-center font-semibold text-red-100 shadow-lg shadow-red-950/20 transition hover:bg-red-900/40"
+              >
+                Sell Your Bike to Apex
               </a>
             </div>
           </div>
@@ -71,6 +78,32 @@ export default function HomePage() {
             and service is approached with obsessive attention to detail — from
             drivetrain precision to braking confidence to the final test ride.
           </p>
+
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-xl shadow-black/20">
+              <h3 className="text-2xl font-black">Premium Builds</h3>
+              <p className="mt-3 leading-7 text-neutral-300">
+                Carefully sourced road and gravel bikes prepared for riders who
+                want confidence, performance, and value.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-xl shadow-black/20">
+              <h3 className="text-2xl font-black">Precision Service</h3>
+              <p className="mt-3 leading-7 text-neutral-300">
+                Tune packages, drivetrain cleaning, brake service, and complete
+                overhauls built around the Apex standard.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-xl shadow-black/20">
+              <h3 className="text-2xl font-black">We Buy Bikes</h3>
+              <p className="mt-3 leading-7 text-neutral-300">
+                Have a quality road, gravel, or endurance bike? Apex may buy it,
+                service it, and prepare it for its next rider.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
