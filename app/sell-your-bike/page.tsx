@@ -139,7 +139,37 @@ export default function SellYourBikePage() {
           </div>
         </div>
       </section>
+<section id="bike-submission" className="mx-auto max-w-7xl px-6 py-20">
+  <div className="mb-10 max-w-3xl">
+    <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">
+      Bike Submission Portal
+    </p>
 
+    <h2 className="mt-4 text-4xl font-black tracking-tight md:text-5xl">
+      Submit your bike for Apex review.
+    </h2>
+
+    <p className="mt-6 text-lg leading-8 text-neutral-300">
+      Complete the form below and upload clear photos of your bike. Apex will
+      review the submission and follow up if the bike fits our current inventory
+      standards.
+    </p>
+  </div>
+
+  <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white p-2 shadow-2xl shadow-black/30">
+    <iframe
+      src="https://tally.so/embed/eqYddE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      width="100%"
+      height="1400"
+      frameBorder="0"
+      marginHeight={0}
+      marginWidth={0}
+      title="Sell Your Bike to Apex Form"
+    >
+      Loading…
+    </iframe>
+  </div>
+</section>
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8">
